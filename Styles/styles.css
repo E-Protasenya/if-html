@@ -7,7 +7,7 @@ body {
 }
 .background {
     background-image: url("../Image/top-section.png");
-    height: 900px;
+    height: 849px;
     background-size: cover;
     padding-left: 104px;
     padding-right: 104px;
@@ -29,7 +29,7 @@ body {
     margin-left: 24px;
 }
 
-.link {
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ h1 {
     border-radius: 8px;
 
 }
-.ny {
+.place {
     position: relative;
     width: 463px;
     height: 62px;
@@ -81,7 +81,7 @@ h1 {
     padding-left: 24px;
 }
 
-.l1 {
+.label1 {
     position: absolute;
     top: 511px;
     width: 246px;
@@ -104,7 +104,7 @@ h1 {
     font-size: 18px;
 }
 
-.l2 {
+.label2 {
     position: absolute;
     top: 511px;
     left: 610px;

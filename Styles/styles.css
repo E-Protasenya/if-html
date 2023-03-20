@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 .top_section_container {
     background-image: url("../Image/top-section.png");
@@ -12,7 +12,7 @@ body {
     padding: 51px 104px 0 104px;
 }
 
-.trip {
+.top_section_title {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,17 +58,17 @@ h1 {
     margin-top: 202px;
 }
 
-.search {
+.search_form_container {
     display: flex;
     margin-top: 145px;
 }
-.form {
+.search_form {
     background-color: white;
     display: flex;
     border-radius: 8px;
 
 }
-.place {
+.form_place_input {
     position: relative;
     width: 463px;
     height: 62px;
@@ -79,7 +79,7 @@ h1 {
     padding-left: 24px;
 }
 
-.label1 {
+.form_place_label {
     position: absolute;
     top: 511px;
     width: 246px;
@@ -91,7 +91,7 @@ h1 {
     padding-left: 24px;
 }
 
-.date {
+.form_date_input {
     position: relative;
     width: 249px;
     height: 56px;
@@ -102,7 +102,7 @@ h1 {
     font-size: 18px;
 }
 
-.label2 {
+.form_date_label {
     position: absolute;
     top: 511px;
     left: 610px;
@@ -111,7 +111,7 @@ h1 {
     font-size: 18px;
 }
 
-.room {
+.form_room_input {
     position: relative;
     width: 310px;
     height: 62px;
@@ -122,7 +122,7 @@ h1 {
     font-size: 18px;
 }
 
-.sub {
+.form_submit_input {
     width: 192px;
     height: 64px;
     background-color: #3077C6;

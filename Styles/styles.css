@@ -156,6 +156,8 @@ hr {
     height: 4px;
     background-color: #F5BD41;
     margin-top: 20px;
+    border: none;
+    outline: none;
 }
 
 .offer_container{
@@ -209,7 +211,7 @@ hr {
     display: flex;
     width: 1064px;
     height: 305px;
-    padding: 120px 272px 200px 104px;
+    padding: 120px 0 64px 104px;
 }
 
 .about {
@@ -229,11 +231,14 @@ hr {
 
 .list {
     list-style-type: none;
-    line-height: 24px;
+    line-height: 40px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 .copyright {
-    padding: 0 1082px 120px 105px;
+    padding: 0 0 120px 105px;
+}
+.full_container {
+    max-width: 1440px;
+    margin: 0 auto;
 }

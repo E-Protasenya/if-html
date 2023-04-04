@@ -1,4 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.top_section_container {
+    background-image: url("../Image/top-section.png");
+    height: 849px;
+    background-size: cover;
+    padding: 51px 104px 0 104px;
+}
+
+.top_section_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_section_menu_images {
+    display: flex;
+    align-items: center;
+}
+
+.top_section_menu_images > * {
+    margin-left: 24px;
+}
+
+.top_section_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_section_menu_links {
+    display: flex;
+}
+
+.top_section_menu_links > * {
+    margin-right: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.select {
+    border-bottom: 4px solid #F5BD41;
+    padding-bottom: 12px;
+}
+
+h1 {
+    width: 542px;
+    height: 118px;
+    font-weight: 500;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 202px;
+}
+
+.search_form_container {
+    display: flex;
+    margin-top: 145px;
+}
+.search_form {
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+
+}
+.form_place_input {
+    background-color: #F3F3F4;
+    position: relative;
+    width: 463px;
+    height: 62px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 24px;
+}
+
+.form_place_label {
+    position: absolute;
+    top: 511px;
+    width: 246px;
+    height: 21px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 24px;
+}
+
+.form_date_input {
+    background-color: #F3F3F4;
+    position: relative;
+    width: 249px;
+    height: 56px;
+    border-radius: 8px;
+    border: 3px solid #F5BD41;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form_date_label {
+    position: absolute;
+    top: 511px;
+    left: 610px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form_room_input {
+    background-color: #F3F3F4;
+    position: relative;
+    width: 310px;
+    height: 62px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.form_submit_input {
+    width: 192px;
+    height: 64px;
+    background-color: #3077C6;
+    border-radius: 8px;
+    border: #3077C6;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.apps {
+    display: flex;
+    width: 100%;
+    margin-top: 120px;
+    justify-content: center;
+}
+.apps> * {
+    margin-left: 24px;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 .offer {
     text-align: center;
@@ -9,7 +163,14 @@ hr {
     height: 4px;
     background-color: #F5BD41;
     margin-top: 20px;
+
+    border: none;
+    outline: none;
 }
+
+
+}
+
 .offer_container{
     width: 296px;
     height: 176px;
@@ -21,7 +182,9 @@ hr {
 }
 
 .text {
+
     font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -32,6 +195,70 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-bottom: 105px;
 }
+
+.tittle_offer {
+    color: #383838;
+    size: 40px;
+    width: 306px;
+    height: 47px;
+    left: 567px;
+    top: 1020px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    margin-left: 567px;
+}
+
+.footer_container {
+    display: flex;
+    background-color: #10367c;
+    width: 1440px;
+    height: 630px;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.footer_container_content {
+    display: flex;
+    width: 1064px;
+    height: 305px;
+    padding: 120px 0 64px 104px;
+}
+
+.about {
+    width: 33.3333%;
+    display: flex;
+}
+
+.property_types {
+    width: 33.3333%;
+    display: flex;
+}
+
+.support {
+    width: 33.3333%;
+    display: flex;
+}
+
+.list {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 20px;
+    font-style: normal;
+}
+.copyright {
+    padding: 0 0 120px 105px;
+}
+.full_container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+}
+
 
 

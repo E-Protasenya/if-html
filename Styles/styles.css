@@ -69,6 +69,7 @@ h1 {
 
 }
 .form_place_input {
+    background-color: #F3F3F4;
     position: relative;
     width: 463px;
     height: 62px;
@@ -92,6 +93,7 @@ h1 {
 }
 
 .form_date_input {
+    background-color: #F3F3F4;
     position: relative;
     width: 249px;
     height: 56px;
@@ -112,6 +114,7 @@ h1 {
 }
 
 .form_room_input {
+    background-color: #F3F3F4;
     position: relative;
     width: 310px;
     height: 62px;

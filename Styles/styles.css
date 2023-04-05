@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
@@ -6,39 +5,39 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-.top_section_container {
+.top_section__container {
     background-image: url("../Image/top-section.png");
     height: 849px;
     background-size: cover;
     padding: 51px 104px 0 104px;
 }
 
-.top_section_title {
+.top_section__title {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.top_section_menu_images {
+.top_section__menu--images {
     display: flex;
     align-items: center;
 }
 
-.top_section_menu_images > * {
+.top_section__menu--images > * {
     margin-left: 24px;
 }
 
-.top_section_menu {
+.top_section__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.top_section_menu_links {
+.top_section__menu--links {
     display: flex;
 }
 
-.top_section_menu_links > * {
+.top_section__menu--links > * {
     margin-right: 24px;
     text-decoration: none;
     color: #ffffff;
@@ -69,7 +68,7 @@ h1 {
     border-radius: 8px;
 
 }
-.form_place_input {
+.form_place__input {
     background-color: #F3F3F4;
     position: relative;
     width: 463px;
@@ -81,7 +80,7 @@ h1 {
     padding-left: 24px;
 }
 
-.form_place_label {
+.form_place__label {
     position: absolute;
     top: 511px;
     width: 246px;
@@ -93,7 +92,7 @@ h1 {
     padding-left: 24px;
 }
 
-.form_date_input {
+.form_date__input {
     background-color: #F3F3F4;
     position: relative;
     width: 249px;
@@ -105,7 +104,7 @@ h1 {
     font-size: 18px;
 }
 
-.form_date_label {
+.form_date__label {
     position: absolute;
     top: 511px;
     left: 610px;
@@ -114,7 +113,7 @@ h1 {
     font-size: 18px;
 }
 
-.form_room_input {
+.form_room__input {
     background-color: #F3F3F4;
     position: relative;
     width: 310px;
@@ -126,7 +125,7 @@ h1 {
     font-size: 18px;
 }
 
-.form_submit_input {
+.form_submit__input {
     width: 192px;
     height: 64px;
     background-color: #3077C6;
@@ -151,10 +150,7 @@ h1 {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-
-.offer {
+.section_offer__tittle {
     text-align: center;
     margin-top: 120px;
 }
@@ -163,15 +159,11 @@ hr {
     height: 4px;
     background-color: #F5BD41;
     margin-top: 20px;
-
     border: none;
     outline: none;
 }
 
-
-}
-
-.offer_container{
+.section_offer__container{
     width: 296px;
     height: 176px;
     display: flex;
@@ -181,21 +173,17 @@ hr {
     margin-top: 108px;
 }
 
-.text {
-
-    font-family: 'Roboto';
-
+.section_offer__text {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     margin-top: 52px;
 }
-.content {
+.section_offer__content {
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-bottom: 105px;
 }
 
@@ -222,7 +210,7 @@ hr {
     flex-direction: column;
 }
 
-.footer_container_content {
+.footer_container__content {
     display: flex;
     width: 1064px;
     height: 305px;
@@ -253,12 +241,7 @@ hr {
 .copyright {
     padding: 0 0 120px 105px;
 }
-.full_container {
+.general_container {
     max-width: 1440px;
     margin: 0 auto;
 }
-
-}
-
-
-

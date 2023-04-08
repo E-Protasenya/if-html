@@ -245,3 +245,54 @@ hr {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.svg-sprite {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.logo-triphouse {
+    width: 205px;
+    height: 40px;
+}
+
+.logo-night {
+    width: 30px;
+    height: 30px;
+}
+.logo-account {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-google-play {
+    width: 135px;
+    height: 40px;
+}
+
+.logo-app-store {
+    width: 135px;
+    height: 40px;
+}
+
+.logo-support {
+    width: 75px;
+    height: 92px;
+}
+
+.logo-communicate {
+    width: 84px;
+    height: 84px;
+}
+
+.logo-book {
+    width: 100px;
+    height: 68px;
+}
+
+.logo-review {
+    width: 92px;
+    height: 84px;
+}

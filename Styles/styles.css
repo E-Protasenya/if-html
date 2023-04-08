@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
@@ -5,39 +6,39 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-.top_section__container {
+.top_section_container {
     background-image: url("../Image/top-section.png");
     height: 849px;
     background-size: cover;
     padding: 51px 104px 0 104px;
 }
 
-.top_section__title {
+.top_section_title {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.top_section__menu--images {
+.top_section_menu_images {
     display: flex;
     align-items: center;
 }
 
-.top_section__menu--images > * {
+.top_section_menu_images > * {
     margin-left: 24px;
 }
 
-.top_section__menu {
+.top_section_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.top_section__menu--links {
+.top_section_menu_links {
     display: flex;
 }
 
-.top_section__menu--links > * {
+.top_section_menu_links > * {
     margin-right: 24px;
     text-decoration: none;
     color: #ffffff;
@@ -68,7 +69,7 @@ h1 {
     border-radius: 8px;
 
 }
-.form_place__input {
+.form_place_input {
     background-color: #F3F3F4;
     position: relative;
     width: 463px;
@@ -80,7 +81,7 @@ h1 {
     padding-left: 24px;
 }
 
-.form_place__label {
+.form_place_label {
     position: absolute;
     top: 511px;
     width: 246px;
@@ -92,7 +93,7 @@ h1 {
     padding-left: 24px;
 }
 
-.form_date__input {
+.form_date_input {
     background-color: #F3F3F4;
     position: relative;
     width: 249px;
@@ -104,7 +105,7 @@ h1 {
     font-size: 18px;
 }
 
-.form_date__label {
+.form_date_label {
     position: absolute;
     top: 511px;
     left: 610px;
@@ -113,7 +114,7 @@ h1 {
     font-size: 18px;
 }
 
-.form_room__input {
+.form_room_input {
     background-color: #F3F3F4;
     position: relative;
     width: 310px;
@@ -125,7 +126,7 @@ h1 {
     font-size: 18px;
 }
 
-.form_submit__input {
+.form_submit_input {
     width: 192px;
     height: 64px;
     background-color: #3077C6;
@@ -150,7 +151,10 @@ h1 {
 }
 
 
-.section_offer__tittle {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.offer {
     text-align: center;
     margin-top: 120px;
 }
@@ -159,11 +163,15 @@ hr {
     height: 4px;
     background-color: #F5BD41;
     margin-top: 20px;
+
     border: none;
     outline: none;
 }
 
-.section_offer__container{
+
+}
+
+.offer_container{
     width: 296px;
     height: 176px;
     display: flex;
@@ -173,17 +181,21 @@ hr {
     margin-top: 108px;
 }
 
-.section_offer__text {
+.text {
+
+    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     margin-top: 52px;
 }
-.section_offer__content {
+.content {
     display: flex;
     align-items: center;
     justify-content: center;
+
     margin-bottom: 105px;
 }
 
@@ -210,7 +222,7 @@ hr {
     flex-direction: column;
 }
 
-.footer_container__content {
+.footer_container_content {
     display: flex;
     width: 1064px;
     height: 305px;
@@ -241,7 +253,12 @@ hr {
 .copyright {
     padding: 0 0 120px 105px;
 }
-.general_container {
+.full_container {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+}
+
+
+

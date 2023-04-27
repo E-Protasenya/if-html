@@ -6,51 +6,51 @@ body {
     margin: 0;
 }
 
-. col-1 {
+.col-lg-1 {
     width: 8.33%;
 }
 
-. col-2 {
+.col-lg-2 {
     width: 16.66%;
 }
 
-. col-3 {
+.col-lg-3 {
     width: 25%;
 }
 
-. col-4 {
+.col-lg-4 {
     width: 33.33%;
 }
 
-. col-5 {
+.col-lg-5 {
     width: 41.66%;
 }
 
-. col-6 {
+.col-lg-6 {
     width: 50%;
 }
 
-. col-7 {
+.col-lg-7 {
     width: 58.33%;
 }
 
-. col-8 {
+.col-lg-8 {
     width: 66.66%;
 }
 
-. col-9 {
+.col-lg-9 {
     width: 75%;
 }
 
-. col-10 {
+.col-lg-10 {
     width: 83.33%;
 }
 
-. col-11 {
+.col-lg-11 {
     width: 91.66%;
 }
 
-. col-12 {
+.col-lg-12 {
     width: 100%;
 }
 
@@ -219,14 +219,6 @@ hr {
     text-align: center;
     margin-top: 120px;
 }
-hr {
-    width: 100px;
-    height: 4px;
-    background-color: #F5BD41;
-    margin-top: 20px;
-    border: none;
-    outline: none;
-}
 
 .section_offer__container{
     width: 296px;
@@ -354,7 +346,95 @@ hr {
     height: 84px;
 }
 
+@media (max-width: 1024px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
+    .col-sm-1 {
+        width: 16.66%;
+    }
+
+    .col-sm-2 {
+        width: 33.32%;
+    }
+
+    .col-sm-3 {
+        width: 50%;
+    }
+
+    .col-sm-4 {
+        width: 66.64%;
+    }
+
+    .col-sm-5 {
+        width: 83.3%;
+    }
+
+    .col-sm-6 {
+        width: 100%;
+    }
     [class*=col-“] {
         width: 100%;
     }
+
+    .tittle_offer {
+        color: #383838;
+       font-weight: 500;
+        text-align: center;
+    }
+
+    hr {
+        position: absolute;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+}

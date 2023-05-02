@@ -5,14 +5,65 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+.col-lg-1 {
+    width: 8.33%;
+}
+
+.col-lg-2 {
+    width: 16.66%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+}
+
+.col-lg-5 {
+    width: 41.66%;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.col-lg-7 {
+    width: 58.33%;
+}
+
+.col-lg-8 {
+    width: 66.66%;
+}
+
+.col-lg-9 {
+    width: 75%;
+}
+
+.col-lg-10 {
+    width: 83.33%;
+}
+
+.col-lg-11 {
+    width: 91.66%;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+
 .top_section__container {
+    max-width: 1264px;
     background-image: url("../Image/top-section.png");
     height: 849px;
     background-size: cover;
     padding: 51px 104px 0 104px;
 }
 
-.top_section__title {
+.top_section__logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,19 +101,24 @@ body {
 }
 
 h1 {
-    width: 542px;
-    height: 118px;
     font-weight: 500;
     font-size: 50px;
     color: #ffffff;
     margin-top: 202px;
 }
 
+.top_section_title {
+    width: 542px;
+    height: 118px;
+}
+
 .search_form_container {
+    max-width: 1264px;
     display: flex;
     margin-top: 145px;
 }
 .search_form {
+    width: 100%;
     background-color: white;
     display: flex;
     border-radius: 8px;
@@ -71,7 +127,7 @@ h1 {
 .form_place__input {
     background-color: #F3F3F4;
     position: relative;
-    width: 463px;
+    width: 30%;
     height: 62px;
     border-radius: 8px;
     border: none;
@@ -95,7 +151,7 @@ h1 {
 .form_date__input {
     background-color: #F3F3F4;
     position: relative;
-    width: 249px;
+    width: 25%;
     height: 56px;
     border-radius: 8px;
     border: 3px solid #F5BD41;
@@ -107,7 +163,7 @@ h1 {
 .form_date__label {
     position: absolute;
     top: 511px;
-    left: 610px;
+    left: 560px;
     color: #ffffff;
     font-weight: 400;
     font-size: 18px;
@@ -116,7 +172,7 @@ h1 {
 .form_room__input {
     background-color: #F3F3F4;
     position: relative;
-    width: 310px;
+    width: 30%;
     height: 62px;
     border-radius: 8px;
     border: none;
@@ -126,7 +182,7 @@ h1 {
 }
 
 .form_submit__input {
-    width: 192px;
+    width: 15%;
     height: 64px;
     background-color: #3077C6;
     border-radius: 8px;
@@ -163,14 +219,20 @@ hr {
     outline: none;
 }
 
+.section_offer__tittle {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
 .section_offer__container{
-    width: 296px;
+    width: 25%;
     height: 176px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 108px;
+    margin-top: 80px;
 }
 
 .section_offer__text {
@@ -178,33 +240,32 @@ hr {
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    margin-top: 52px;
 }
 .section_offer__content {
+    max-width: 1264px;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 105px;
+    margin: 0 auto;
+    padding-bottom: 114px;
 }
 
 .tittle_offer {
     color: #383838;
     size: 40px;
-    width: 306px;
-    height: 47px;
-    left: 567px;
-    top: 1020px;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 47px;
-    margin-left: 567px;
+    margin: 0 auto;
 }
+
+
 
 .footer_container {
     display: flex;
     background-color: #10367c;
-    width: 1440px;
     height: 630px;
     color: #ffffff;
     flex-direction: column;
@@ -212,24 +273,20 @@ hr {
 
 .footer_container__content {
     display: flex;
-    width: 1064px;
+    max-width: 1264px;
     height: 305px;
     padding: 120px 0 64px 104px;
 }
-
-.about {
-    width: 33.3333%;
+.footer_container__content-list {
     display: flex;
+    width: 33%;
 }
 
-.property_types {
-    width: 33.3333%;
-    display: flex;
-}
-
-.support {
-    width: 33.3333%;
-    display: flex;
+.referenses {
+    visibility: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
 }
 
 .list {
@@ -239,6 +296,7 @@ hr {
     font-style: normal;
 }
 .copyright {
+    font-size: 14px;
     padding: 0 0 120px 105px;
 }
 .general_container {
@@ -266,6 +324,12 @@ hr {
     width: 40px;
     height: 40px;
 }
+.logo-menu {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
 
 .logo-google-play {
     width: 135px;
@@ -278,21 +342,266 @@ hr {
 }
 
 .logo-support {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 75px;
     height: 92px;
+    padding-bottom: 52.17px;
 }
 
 .logo-communicate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 84px;
     height: 84px;
+    padding-bottom: 56.33px;
 }
 
 .logo-book {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100px;
-    height: 68px;
+    height: 66.67px;
+    padding-bottom: 72.67px;
 }
 
 .logo-review {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 92px;
     height: 84px;
+    padding-bottom: 60.5px;
+}
+
+.logo-triphouse_white {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 1024px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+    .general_container {
+        width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-1 {
+        width: 16.66%;
+    }
+
+    .col-sm-2 {
+        width: 33.32%;
+    }
+
+    .col-sm-3 {
+        width: 50%;
+    }
+
+    .col-sm-4 {
+        width: 66.64%;
+    }
+
+    .col-sm-5 {
+        width: 83.3%;
+    }
+
+    .col-sm-6 {
+        width: 100%;
+    }
+    [class*=col-“] {
+        width: 100%;
+    }
+
+    .tittle_offer {
+        color: #383838;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    hr {
+        position: absolute;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+
+.apps {
+    width: 270px;
+    height: 40px;
+    margin: auto;
+}
+.general_container {
+    width: 360px;
+    margin: 0;
+}
+
+.top_section__menu--links {
+    position: absolute;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.top_section__container {
+    width: 348px;
+    margin: 0 auto;
+    padding: 12px 6px 40px 6px;
+}
+
+
+.logo-menu {
+    width: 24px;
+    height: 16px;
+    visibility: visible;
+    position: relative;
+}
+.logo-night {
+    width: 16px;
+    height: 16px;
+}
+.logo-account {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-triphouse {
+    width: 121px;
+    height: 24px;
+}
+
+.logo-triphouse_white {
+    visibility: visible;
+    width: 98px;
+    height: 19px;
+    padding: 40px 131px 144px 131px;
+
+}
+
+.logo-support {
+    width: 52.5px;
+    height: 64.17px;
+    padding-bottom: 18.92px;
+}
+
+.logo-communicate {
+    width: 58.33px;
+    height: 58.33px;
+    padding-bottom: 21.83px;
+}
+
+.logo-book {
+    width: 70px;
+    height: 46.67px;
+    padding-bottom: 27.67px;
+}
+
+.logo-review {
+    width: 64.17px;
+    height: 58/33px;
+    padding-bottom: 24.75px;
+}
+
+.section_offer__text {
+    font-size: 15px;
+}
+.section_offer__tittle {
+    padding-top: 24px;
+}
+
+.section_offer__content {
+    padding-bottom: 40px;
+    padding-top: 32px;
+}
+.section_offer__container {
+    width: 214px;
+    margin: 0 auto;
+    height: 104px;
+    margin-bottom: 58px;
+}
+.copyright {
+    font-size: 12px;
+    padding: 149px 70px 40px 71px;
+}
+.footer_container__content {
+    padding: 99px 68px 40px 67px;
+    width: 225px;
+    height: 18px;
+}
+
+.list li {
+    visibility: hidden;
+}
+
+.list :first-child {
+    visibility: visible;
+    font-size: 15px;
+text-align: center;
+    line-height: 17.58px;
+}
+.list {
+    font-size: 15px;
+}
+
+.footer_container__content-list {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.footer_container {
+    height: 100%;
+}
 }
